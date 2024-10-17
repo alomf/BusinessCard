@@ -1,16 +1,11 @@
 body {
     margin: 20px;
-    /*
-    Challenge:
-    Find a web safe font you like, and add it 
-    to your card.
-    */
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .card {
@@ -19,11 +14,13 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
-    background: #D8E2DC;
+    background: #E3F2FD;
     color: #2b2839;
-    border-radius: 4px ;
-        
+    text-shadow: #BBDEFB 1px 1px;
+    border: #E3F2FD solid 1px;
+    border-radius: 4px;
     /*
     Challenge:
     Find a color palette you like on Coolors.co
@@ -31,7 +28,12 @@ body {
      */
 }
 
-
+.card:hover {
+    background: #BBDEFB;
+    color: #2b2839;
+    border: #BBDEFB solid 1px;
+    box-shadow: 0 0 2px #BBDEFB;
+}
 /*
 Stretch goals:
 Find other ways you can personalize 
